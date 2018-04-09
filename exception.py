@@ -3,5 +3,5 @@ def division():
 try:
    division()
 
-except ZeroDivisionError as detail:
+except Exception as detail:
     print ("error",detail)
