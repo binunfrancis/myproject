@@ -1,7 +1,0 @@
-import MySQLdb
-conn = MySQLdb.connect("127.0.0.1","root","root","test")
-c = conn.cursor()
-c.execute("SELECT * FROM barcodedata")
-rows = c.fetchall()
-for eachRow in rows:
-    print (eachRow)
