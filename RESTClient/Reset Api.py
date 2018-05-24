@@ -1,7 +1,6 @@
 import requests
 import json
 
-CountryCode='US'
 API_URL='http://api.bitbucket.org/2.0/repositories/binunfrancis'
 
 Result = requests.get(API_URL,headers={'content-type': 'application/json'},verify=False)
